@@ -1,5 +1,4 @@
-%define commit 06278a64248cec92bb95a958eadfba453943c061
-%define commit_short %(echo %{commit} | head -c6)
+%define _empty_manifest_terminate_build 0
 
 Summary:	A markup language for GTK user interface files
 Name:		blueprint-compiler
