@@ -8,7 +8,7 @@ Release:	1
 License:	GPLv3+
 Group:		Development/GNOME and GTK+
 Url:		https://gitlab.gnome.org/jwestman/blueprint-compiler
-Source0:	https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0:	https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v%{version}/%{name}-%{version}.tar.bz2
 BuildRequires:	meson
 BuildRequires:  pkgconfig(python)
 
