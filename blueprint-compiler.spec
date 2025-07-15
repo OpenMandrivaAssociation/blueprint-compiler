@@ -2,7 +2,7 @@
 
 Summary:	A markup language for GTK user interface files
 Name:		blueprint-compiler
-Version:	0.16.0
+Version:	0.18.0
 Release:	1
 License:	GPLv3+
 Group:		Development/GNOME and GTK+
