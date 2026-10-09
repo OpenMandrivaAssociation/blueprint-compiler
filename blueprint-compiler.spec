@@ -3,7 +3,7 @@
 Summary:	A markup language for GTK user interface files
 Name:		blueprint-compiler
 Version:	0.22.2
-Release:	1
+Release:	2
 License:	GPLv3+
 Group:		Development/GNOME and GTK+
 Url:		https://gitlab.gnome.org/jwestman/blueprint-compiler
@@ -47,7 +47,7 @@ Devel file for %{name}.
 #------------------------------------------------------------------
 
 %prep
-%autosetup -p1 -n blueprint-compiler-v0.22.2
+%autosetup -p1 -n blueprint-compiler-v%{version}
 
 %build
 %meson
