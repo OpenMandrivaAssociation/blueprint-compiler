@@ -10,6 +10,9 @@ Url:		https://gitlab.gnome.org/jwestman/blueprint-compiler
 Source0:	https://gitlab.gnome.org/jwestman/blueprint-compiler/-/archive/v%{version}/%{name}-v%{version}.tar.bz2
 BuildRequires:	meson
 BuildRequires:  pkgconfig(python3)
+BuildRequires:  pkgconfig(pygobject-3.0)
+BuildRequires:  pkgconfig(gtk4)
+BuildRequires:  pkgconfig(libadwaita-1)
 
 %description
 A markup language for GTK user interface files.
